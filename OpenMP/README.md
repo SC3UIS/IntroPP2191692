@@ -6,15 +6,15 @@ Este trabajo se enfoca en desarrollar una búsqueda binaria paralelizada utiliza
 
 Los demás arhcivos dentro de esta carpeta abordan la complejidad de ordenamiento. Se presenta una variante del Bucket Sort que aprovecha la estructura jerárquica de los elementos. Esta variante permite agrupar los elementos en subconjuntos según similitudes, como dígitos similares en este caso, y luego reorganiza estos subgrupos para obtener una lista ordenada.
 
---- Implementación de Ordenamiento Paralelo con OpenMP ---
+----- Implementación de Ordenamiento Paralelo con OpenMP -----
 
 Esta implementación presenta dos algoritmos de ordenamiento paralelizados utilizando OpenMP: BinarySort y PostmanSort. El código se divide en varias partes, incluyendo archivos de código fuente para cada algoritmo de ordenamiento, archivos de encabezado que contienen las declaraciones de funciones y las definiciones de estructuras necesarias, y archivos de secuencia de comandos para la compilación y ejecución en un entorno de clúster.
 
-#### Representación visual BinarySearch
+####  BinarySearch
 
 ![alt text](image.png)
 
-#### Representación visual PostmanSort
+####  RadixSort
 
 ![alt text](psotrm.png)
 
@@ -31,13 +31,13 @@ Archivos añadidos además de los base:
 #### Compilación
 
 Se puede utilizar el siguiente comando para compilar.
-``` gcc -fopenmp omp_BinarySearch.c -o omp_BinarySearch ```.
+``` gcc -fopenmp omp_BinarySearch.c -o omp_BinarySearch ```
 
 Este comando es para compilar el programa.
-``` ./omp_BinarySearch ```.
+``` ./omp_BinarySearch ```
 
-- Lo mismo para PostmanSort:
-``` gcc -fopenmp omp_PostmanSort.c -o omp_PostmanSort ```.
-``` ./omp_PostmanSort ```.
+Lo mismo para PostmanSort:
+``` gcc -fopenmp omp_PostmanSort.c -o omp_PostmanSort ```
+``` ./omp_PostmanSort ```
 
 
