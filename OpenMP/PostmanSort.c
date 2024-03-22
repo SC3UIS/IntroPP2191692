@@ -1,5 +1,8 @@
 /* 
  * C Program to Implement Postman Sort Algorithm
+
+Modificación paralelizada del código original.
+
  */
 #include <stdio.h>
  
