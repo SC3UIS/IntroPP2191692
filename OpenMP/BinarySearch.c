@@ -1,5 +1,7 @@
 /*
  * C Program to Perform Binary Search using Recursion
+
+Modificación paralelizada
  */
  
 #include <stdio.h>
