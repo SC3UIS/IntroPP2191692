@@ -12,11 +12,11 @@ Esta implementación presenta dos algoritmos de ordenamiento paralelizados utili
 
 ####  BinarySearch
 
-![alt text](image.png)
+![alt text](/OpenMP/images/image.png)
 
 ####  RadixSort
 
-![alt text](psotrm.png)
+![alt text](/OpenMP/images/psotrm.png)
 
 Archivos añadidos además de los base:
 
